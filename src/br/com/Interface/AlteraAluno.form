@@ -145,8 +145,6 @@
                       <Component id="setorAluno" alignment="0" pref="320" max="32767" attributes="0"/>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="idAluno" min="-2" pref="64" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
                       </Group>
                       <Component id="nomeAluno" alignment="0" max="32767" attributes="0"/>
@@ -164,7 +162,6 @@
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="idAluno" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
@@ -302,11 +299,6 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
           </Events>
-        </Component>
-        <Component class="javax.swing.JLabel" name="jLabel11">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="formato da data yyyy-MM-dd"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="jButtonVoltarAlterarDados">
           <Properties>

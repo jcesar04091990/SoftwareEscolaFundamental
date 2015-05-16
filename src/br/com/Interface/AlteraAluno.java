@@ -74,7 +74,6 @@ public class AlteraAluno extends javax.swing.JDialog {
         telAluno = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jLabel11 = new javax.swing.JLabel();
         jButtonVoltarAlterarDados = new javax.swing.JButton();
         jButtonPesqAlunoAlterar = new javax.swing.JButton();
 
@@ -164,8 +163,6 @@ public class AlteraAluno extends javax.swing.JDialog {
             }
         });
 
-        jLabel11.setText("formato da data yyyy-MM-dd");
-
         jButtonVoltarAlterarDados.setText("Voltar");
         jButtonVoltarAlterarDados.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -203,8 +200,6 @@ public class AlteraAluno extends javax.swing.JDialog {
                     .addComponent(setorAluno, javax.swing.GroupLayout.DEFAULT_SIZE, 320, Short.MAX_VALUE)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addComponent(idAluno, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel11)
                         .addGap(90, 90, 90))
                     .addComponent(nomeAluno)
                     .addComponent(rgAluno)
@@ -217,8 +212,7 @@ public class AlteraAluno extends javax.swing.JDialog {
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
-                    .addComponent(idAluno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel11))
+                    .addComponent(idAluno, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel3)
@@ -441,7 +435,6 @@ public class AlteraAluno extends javax.swing.JDialog {
     private javax.swing.JButton jButtonVoltarAlterarDados;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
